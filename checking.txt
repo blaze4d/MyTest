@@ -1,0 +1,13 @@
+--The commands for GIT
+git config --global user.name "Uchenna"
+git config -- global user.email "blaze4d@gmail.com"
+mkdir ~/Testing
+cd ~/Testing
+--add files
+git touch Readme.txt --
+git status -- to check file
+git add Readme.txt
+git commit -m "My first commit"
+git remote add origin https://github.com/blaze4d/MyTest.git 
+git remote -v
+git push -u origin master
